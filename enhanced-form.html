@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Builders and Supplies is a full-fledge construction company that handles, solid standard concrete block making, building supplies, and construction supervision." />
+        <title>Enhanced Html</title>
+    </head>
+    <body>
+        <header>
+            <img src="img/logo.png" alt="logo of the company" height="50" width="50" />
+            <nav class="nav">
+                <ul>
+                    <li><a href="#product">Products</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="container">
+                <div class="intro-wrapper">
+                    <h1>Zaynet Builders and Supplies</h1>
+                    <p>Zaynet Builders & Supplies provides high-quality building materials and expert construction supervision since 2010.</p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="service">
+                <div class="container">
+                    <h2>What We Offer</h2>
+                    <div class="">
+                        <ul>
+                            <li>Premium Building Blocks</li>
+                            <li>Construction Supervision</li>
+                            <li>Custom Architectural Designs</li>
+                            <li>On-Time Project Delivery</li>
+                        </ul>
+                    </div>
+                    <h2>Why Choose Us</h2>
+                    <div class="">
+                        <ol>
+                            <li><strong>10+ Years</strong> of Industry Experience</li>
+                            <li><strong>Eco-Friendly</strong> Materials</li>
+                            <li><strong>Affordable</strong> Pricing</li>
+                            <li><strong>24/7</strong> Customer Support</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <!--SECTION PRODUCT-->
+            <section id="product">
+                <div class="container">
+                    <h2>Products</h2>
+                    <table id="table" border="1">
+                        <caption>Check Out Our Building Materials Price List</caption>
+                        <thead>
+                            <tr>
+                                <th class="table-head">Product</th>
+                                <th class="table-head">Type</th>
+                                <th class="table-head">Price(per unit)</th>
+                                <th class="table-head">Availability</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Concrete Blocks</td>
+                                <td>Standard</td>
+                                <td>$2.50</td>
+                                <td>In Stock</td>
+                            </tr>
+                            <tr>
+                                <td>Bricks</td>
+                                <td>Red Clay</td>
+                                <td>$1.80</td>
+                                <td>In Stock</td>
+                            </tr>
+                            <tr>
+                                <td>Steel Beams</td>
+                                <td>Industrial Grade</td>
+                                <td>$15.00</td>
+                                <td>Limited</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <!--PROJECT-->
+            <section id="project">
+                <div class="container">
+                    <h2>Projects</h2>
+                    <p>Go through our past projects and reviews.</p>
+                    <div class="project">
+                        <figure>
+                            <img src="img/bg.jpg" width="100%" alt="Residential building project" />
+                            <figcaption>Residential Building</figcaption>
+                        </figure>
+                    </div>
+                    <div class="review">
+                        <h3>Check our company overview</h3>
+                        <video  height="240" width="360" preload="none" controls>
+                            <source src="media/city_video.mp4.mp4" type="video/mp4" media="" />
+                            Your browser does not support this video type
+                        </video>
+                        <div class="review">
+                            <audio controls>
+                                <source src="media/city_video.mp4.mp4" type="audio/mp4" media="" />
+                                Your browser does not support this audio type
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--CONTACT US-->
+            <section id="contact">
+                <div class="container">
+                    <h2>Contact Us</h2>
+                    <form action="" method="get" enctype="multipart/form-data" accept-charset="utf-8">
+                        <fieldset>
+                            <legend>Get a Free Quote</legend>
+                            <label for="name">Name:</label> <br />
+                            <input type="text" name="name" id="name" placeholder="Your name, here, please" required /> <br />
+                            <label for="email">Email:</label> <br />
+                            <input type="email" name="email" id="email" pattern="[a-z][0-9][@]" placeholder="Your email here, please" required /> <br />
+                            <label for="phone">Phone: </label> <br />
+                            <input type="tel" name="phone" pattern="[0-9]{11}" maxlength="11" placeholder="08108931185" required /> <br />
+                            <label for="choice">Select Project</label> <br />
+                            <select name="choice" id="choice"  required>
+                                <option value="choose" selected>Select an option</option>
+                                <option value="residential">Residential</option>
+                            </select> <br />
+                            <label for="message">Add description: </label> <br />
+                            <textarea name="message" id="message" rows="8" cols="40" readonly>Describe your project</textarea> <br />
+                            <label for="upload">Upload Blueprint: </label> <br />
+                            <input type="file" name="upload" id="upload" type="docx/pfd" accept=".docx, .pdf" disabled/> <br />
+                            <label for="submit"></label> <br />
+                            <input type="button" name="submit" id="submit" value="submit" />
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!--FOOTER-->
+        <footer>
+            <div class="cotainer">
+                <div class="contact-info">
+                    <h3>Contact info</h3>
+                    <address>
+                        8, Oke-okitimo, off Oke-ago, Lalupon
+                    </address>
+                    <p>
+                        Call:<a href="tel:08066600517">08066600517</a>
+                    </p>
+                    <p>
+                        Email:<a href="mailto:zaynetbuildwesand supplies">zaynetbuildersandsupplies@gmail.com</a>
+                    </p>
+                </div>
+                <div class="quicklink">
+                    <h3>Quick Links</h3>
+                    <div class="footer-link">
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
